@@ -1,6 +1,6 @@
 # CTF Write-ups
 
-I recently completed my first successful hack, and not gonna lie... when I typed "whoami" and "root" showed up on the screen, I was on top of the world!
+I recently completed my first successful hack, and not gonna lie... when I typed `whoami` and `root` showed up on the screen, I was on top of the world!
 
 I will collect my CTF write-ups in this repository. 
 
