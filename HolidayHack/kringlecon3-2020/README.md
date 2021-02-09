@@ -318,7 +318,7 @@ First I used the rotary phone for the [dial-up challenge](#dial-up) (blast from 
 Anytime you feel like changing the color scheme up, just pick up the phone!
 You know, Santa really seems to trust Shinny Upatree..."
 
-Then I tackled the [Redis bug hunt](#redis) before talking to Holly Evergreen again:
+Then I tackled the [Redis bug hunt](#redis-bug) before talking to Holly Evergreen again:
 
 > "See? I knew you could to it!
 I wonder, could we figure out the problem with the Tag Generator if we can get the source code?
@@ -333,7 +333,7 @@ Next I headed back to the castle entry.
 
 Time to take a crack at the [Santavator](#objective-4).
 
-Ninjula's [Girl form Ipanema](https://holidayhackchallenge.com/2020/album/Ninjula%20-%20Girl%20form%20ipanema.mp3) was the background for the trip up to the Talks Lobby.
+Ninjula's [Girl from Ipanema](https://holidayhackchallenge.com/2020/album/Ninjula%20-%20Girl%20form%20ipanema.mp3) was the background for the trip up to the Talks Lobby.
 
 ### Talks Lobby
 
@@ -1656,7 +1656,7 @@ Success!
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
-<a name="redis"></a>
+<a name="redis-bug"></a>
 ### Redis Bug Hunt 
 (Holly Evergreen)
 
