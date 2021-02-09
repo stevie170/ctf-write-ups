@@ -755,7 +755,7 @@ OK, now to narrow in on the list part of the billboard. I cropped the image to h
 
 <img src="images-2020/obj-1-billboard-list.png" width="500" />
 
-The “tools” links to [](https://www.photopea.com/). I'm sure I could easily have used Photoshop, a tool that's installed on my computer and one I'm very familiar with already, but it's fun to try new tools so I'll use Photopea for this. It's interesting to use a browser-based image editor. Very interesting.  
+The “tools” links to [photopea.com](https://www.photopea.com/). I'm sure I could easily have used Photoshop, a tool that's installed on my computer and one I'm very familiar with already, but it's fun to try new tools so I'll use Photopea for this. It's interesting to use a browser-based image editor. Very interesting.  
 
 Filter... Distort... Twirl
 
@@ -1698,7 +1698,7 @@ There near the top, it's the password in plain text!
 and at the bottom, it shows the IP address.
 <img src="images-2020/holly-start2.png" width="500" />
 
-``$ redis-cli -h 127.0.0.1 -a R3disp@ss`
+`$ redis-cli -h 127.0.0.1 -a R3disp@ss`
 (-h means we're specifying the host IP address; -a means we're authenticating with a password)
 
 Now looking at the hint link… [Pentesting Redis](https://book.hacktricks.xyz/pentesting/6379-pentesting-redis)
@@ -1823,7 +1823,14 @@ This is how…
 AAAAAAAA = XiGRehmw
 BBBBBBBB = DqTpKv7f
 
-Are there patterns?
+By looking at which letters in the input map to which letters in the output, I can look for patterns.
+I'll make a table to sort the values for which letter ends up in each position.
+
+__The goal:__
+
+C????????? = LVEdQPpBwr
+
+__Some of the things I tried:__
 
 AAAABBBB = XiGRKv7f
 BBBBAAAA = DqTpehmw
@@ -1840,31 +1847,26 @@ CandyCanes = LVEdQPpBw5
 
 CandyCane1 = LVEdQPpBwr   Oh this is the one, woohoo!
 
-I'll make a table to sort the values for each letter in each position.
+__And the table:__
 
--- something is wrong with this table. I'll need to revisit it because it doesn't look like the one I put together... --
-
-|        | 1 | A | a | B | C | d | D | E | H | I | N | O | P | R | s | S | Y | z | Z | 5 |
-|-------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1-L  C | 2 | X | 9 | D | L |   |   | h |   |   |   |   |   |   |   |   |   |   |   | 	 |																						
-| 2-V  a | r | i | V | q | b |   |   | x |   |   |   | l |   |   | 	 |   |   |   |   |   | 													
-| 3-E  n | D | G | b | T | n |   |   | k |   |   |   |   |   | S |   |   |   |   |   | 	 |										
-| 4-d  d | O | R | t | p | 3 |   |   | r |   |   | I |   |   |   |   |   |   |   |   |   |															
-| 5-Q  y | 5 | e | a | K | U |   |   | 3 |   |   |   |   |   |   |   |   | j |   |   |   |			
-| 6-P  C | L | h | c | v | P |   |   | z |   |   |   |   |   |   |   |   |   |   |   |   |																								
-| 7-p  a | k | m | p | 7 | 9 |   |   | C |   |   | Y |   |   |   | 	 |   |   |   |   |   | 										
-| 8-B  n | I | w | g | f | W |   |   | n |   |   |   | r |   |   |   |   |   |   |   |   | 																				
-| 9-w  e | 2 | X | 9 | D | 	 |   |   |   |   |   |   |   | s |   |   |   |   |   |   |   |  
-| 10-r 1 | r | i | V | q |   | R | v |   |   |   |   |   |   |   | 5 | g |   | a | t | T |
-
-C????????? = LVEdQPpBwr
+|        | 1 | A | a | B | C | d | D | e | E | H | I | N | n | O | P | R | s | S | Y | y | z | Z | 5 |
+|-------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| 
+| 1-L  C | 2 | X | 9 | D | L |   |   |   | h |   |   |   |   |   |   |   |   |   |   |   |   |   | 	 |																						
+| 2-V  a | r | i | V | q | b |   |   |   | x |   |   |   |   | l |   |   | 	 |   |   |   |   |   |   | 													
+| 3-E  n | D | G | b | T | n |   |   |   | k |   |   |   | E |   |   | S |   |   |   |   |   |   | 	 |										
+| 4-d  d | O | R | t | p | 3 | d |   |   | r |   |   | I |   |   |   |   |   |   |   |   |   |   |   |															
+| 5-Q  y | 5 | e | a | K | U |   |   |   | 3 |   |   |   |   |   |   |   |   |   | j | Q |   |   |   |			
+| 6-P  C | L | h | c | v | P |   |   |   | z |   |   |   |   |   | C |   |   |   |   |   |   |   |   |																								
+| 7-p  a | k | m | p | 7 | 9 |   |   |   | C | Y |   |   |   |   | 	 |   |   |   |   |   |   | 										
+| 8-B  n | I | w | g | f | W |   |   |   | n |   | r |   | B |   |   |   |   |   |   |   |   | 																				
+| 9-w  e | 2 | X | 9 | D | 	 |   |   | w |   |   |   |   |   |   | s |   |   |   |   |   |   |   |   |  
+| 10-r 1 | r | i | V | q |   | R | v |   |   |   |   |   |   |   |   |   | 5 | g |   |   | a | t | T |
 
 <img src="images-2020/bushy-snacks-final.png" width="500" />
 
-And... I totally missed this hint! Looks like I followed the gist of it anyway.
+Umm... I totally missed this hint! Looks like I followed the gist of it anyway, but I'm sure there were much more efficient ways!
 
 <img src="images-2020/bushy-hint3.png" width="500" />
-
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
