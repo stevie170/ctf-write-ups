@@ -142,7 +142,7 @@ Do you think you could get me back to where I was, admiring a beautiful bird?
 If you find it handy, there's a tmux cheat sheet you can use as a reference.
 I hope you can help!"
 
-Once I accomplished the [Unescape Tmux challenge](#tmux) I talked to Pepper Minstix again:
+Once I accomplished the [Unescape Tmux challenge](#tmux-challenge) I talked to Pepper Minstix again:
 
 > "You found her! Thanks so much for getting her back!
 Hey, maybe I can help YOU out! There's a Santavator that moves visitors from floor to floor, but it's a bit wonky.
@@ -1226,7 +1226,7 @@ Success!
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
-<a name="tmux"></a>
+<a name="tmux-challenge"></a>
 ### Unescape Tmux 
 (Pepper Minstix)
 
