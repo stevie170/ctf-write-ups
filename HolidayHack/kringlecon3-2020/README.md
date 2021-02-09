@@ -1279,11 +1279,11 @@ _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [n
 > The North Pole 🍭 Lollipop Maker:
 All the lollipops on this system have been stolen by munchkins. Capture munchkins by following instructions here and 🍭's will appear in the green bar below. Run the command "hintme" to receive a hint.
 
-<img src="images-2020/mary-start.png" width="500" />
+<img src="images-2020/linux-start.png" width="500" />
 
 Looks like this Munchkin Wrangler at the bottom of the screen is where the Lollipops will gather.
 
-<img src="images-2020/mary-start2.png" width="500" />
+<img src="images-2020/linux-start2.png" width="500" />
 
 Instructions and commands, I think I'm gonna like this one.
 
