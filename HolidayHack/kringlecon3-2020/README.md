@@ -488,9 +488,10 @@ Unlocked the second stanza of the narrative. Cool.
 
 <img src="images-2020/workshop.png" width="500" />
 
-song: Ninjula's [I could be Santa](https://holidayhackchallenge.com/2020/album/Ninjula%20-%20I%20could%20be%20santa.mp3)]  
+song: Ninjula's [I could be Santa](https://holidayhackchallenge.com/2020/album/Ninjula%20-%20I%20could%20be%20santa.mp3)  
 
 There's a large marble on the floor!
+
 <img src="images-2020/large-marble.png" width="500" />
 
 Talking to Minty Candycane
@@ -502,7 +503,7 @@ You can find a regular expression cheat sheet here if you need it.
 You can use this regex interpreter to test your regex against the required Sort-O-Matic patterns.
 Do you think you can help me fix it?
 
-Ok got the [Regex challenge]() done. Talking to Minty again - 
+Ok got the [Regex challenge](#toy-sorting) done. Talking to Minty again - 
 > Great job! You make this look easy!
 Hey, have you tried the Splunk challenge?
 Are you newer to SOC operations? Maybe check out his intro talk from last year.
@@ -531,6 +532,7 @@ I'm hoping Santa can give me a hand nailing down that flaw.
 Look at the tag generator…
 Jk
 tag-
+
 <img src="images-2020/tag-error.png" width="500" />
 
 I'm pretty sure the locked door in the sorting room is the one where the Proxmark can open the door…
@@ -602,7 +604,7 @@ Angel Candysalt -
 > Hey Santa, there's some crazy stuff going on that we can see through our Splunk infrastructure.
 You better login and see what's up.
 
-Clicking on the [Splunk terminal]()…
+Clicking on the [Splunk terminal](#splunk)…
 Got it! That was… interesting. Splunk is still a little confusing to me, I'd never actually heard of it before. It looks like an interesting tool.
 
 Talking to Angel Candysalt again - nope, same message as before.
@@ -656,7 +658,7 @@ I'm just minding my own business, watching the elves play NetWars.
 ...
 
 
-I'm going to start with the [Scapy Prepper]()
+I'm going to start with the [Scapy Prepper](#scapy-prepper)
 OK that was pretty cool, I liked changing the packets.
 
 Now talking to Alabaster again…
@@ -672,9 +674,9 @@ But we'll still need to cook up something to change the HTTP response.
 I'm sure glad you're here Santa.
 ...
 
-Looks like hints for the ARP Shenanigans. That's objective 9… I'll come back to it.
+Looks like hints for the ARP Shenanigans. That's [objective 9](#objective-9)… I'll come back to it.
 
-Looking more closely at Objective 7
+Looking more closely at [Objective 7](#objective-7).
 
 I wonder how the dialogue will change if I go to the roof as me instead of Santa? I'm going to exit to the NJT and then Teleport back to the roof. I can become Santa again after by teleporting to the Workshop.
 
@@ -715,7 +717,7 @@ Maybe I'll try this objective as me.
 Then I'll teleport to the Workshop, go in the dark room, then teleport to the wrapping room as Santa to do objective 8. Then teleport back to the roof as Santa for the ARP Shenanigans.
 
 Actually… I skipped the Snowball game and maybe finishing it could give me more info.
-I'll watch the related talk and try that again first. Then I'll try Obj 7 as me and change to Santa for Obj 8 and then Obj 9.
+I'll watch the related talk and try that again first. Then I'll try [Objective 7](#objective-7) as me and change to Santa for [Obj 8](#objective-8) and then [Obj 9](#objective-9).
 
 I think the Snowball game was in the UNPreparedness room… it's off the Talks Lobby so I'll teleport there.
 
@@ -837,8 +839,7 @@ _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [n
 
 <img src="images-2020/obj-3-start.png" width="400" />
 
-Well, it's an exe file and I'm on a Mac. Hmm... I could move over to my Windows, but first I want to try this tool
-[](https://extract.me/) - someone on the Holiday Hack Discord server mentioned it. 
+Well, it's an exe file and I'm on a Mac. Hmm... I could move over to my Windows, but first I want to try this [binary extraction tool](https://extract.me/) - someone on the Holiday Hack Discord server mentioned it. 
 And it worked great!
 
 <img src="images-2020/obj-3-tool.png" width="400" />
@@ -900,7 +901,7 @@ This one has a few hints.
 
 <img src="images-2020/obj-5-hint4.png" width="400" />
 
-This is the link referenced in this hint: [](https://gist.github.com/joswr1ght/efdb669d2f3feb018a22650ddc01f5f2). It's a HID/ProxCard Cheat Sheet.
+[This is the link referenced in this hint](https://gist.github.com/joswr1ght/efdb669d2f3feb018a22650ddc01f5f2). It's a HID/ProxCard Cheat Sheet.
 
 <img src="images-2020/obj-5-hint4-list.png" width="400" />
 
@@ -962,7 +963,7 @@ I should note here that there are helpful hints in chat with Alice!
 
 <img src="images-2020/obj-6-chat1.png" width="400" />
 
-Alice's [definition of a Splunk index can be found here](). 
+Alice's [definition of a Splunk index can be found here](https://docs.splunk.com/Splexicon:Index). 
 
 Here's Alice's link for [atomic red team](https://github.com/redcanaryco/atomic-red-team). This is a really interesting tool!
 
@@ -1042,7 +1043,6 @@ Well hello there, lollipop guild!
 
 <img src="images-2020/obj-6-final.png" width="500" />
 
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="objective-7"></a>
@@ -1089,7 +1089,6 @@ There are a lot of hints for this objective!
 
 <img src="images-2020/obj-8-start.png" width="500" />
 
-
 I haven't tackled this challenge yet...
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
@@ -1101,13 +1100,10 @@ _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [n
 
 <img src="images-2020/obj-9-start.png" width="600" />
 
-`Jack Frost has hijacked the host at 10.6.6.35 with some custom malware.
-
+> Jack Frost has hijacked the host at 10.6.6.35 with some custom malware.
 Help the North Pole by getting command line access back to this host.
-
 Read the HELP.md file for information to help you in this endeavor.
-
-Note: The terminal lifetime expires after 30 or more minutes so be sure to copy off any essential work you have done as you go.`
+Note: The terminal lifetime expires after 30 or more minutes so be sure to copy off any essential work you have done as you go.
 
 I entered this command: 
 `$ cat HELP.md | more`
@@ -1147,9 +1143,7 @@ I do plan to ask Santa for a hand with it next time he's nearby, though.
 
 <img src="images-2020/obj-9-hint4.png" width="400" />
 
-
 I stopped here, but hopefully I'll come back to it...
-
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
@@ -1196,8 +1190,7 @@ Solving these challenges opened up additional dialogue with the elves, which inc
 (Shinny Upatree)
 
 <img src="images-2020/shinny-hint1.png" width="500" />
-Here is the [Command Injection link](https://owasp.org/www-community/attacks/Command_Injection 
-) from the hint.
+Here is the [Command Injection link](https://owasp.org/www-community/attacks/Command_Injection) from the hint.
 
 <img src="images-2020/shinny-start1.png" width="500" />
 
@@ -1264,11 +1257,9 @@ Here is how to navigate between sessions from the Tmux cheat sheet:
 
 <img src="images-2020/pepper-tmux-cs.png" width="500" />
 
-So to move to the next session, I hit Ctrl + b then typed ) into the terminal, hit enter, and there was the bird!
+So to move to the next session, I hit `Ctrl` + `b` then typed `)` into the terminal, hit enter, and there was the bird!
 
 <img src="images-2020/pepper-final.png" width="500" />
-
-
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
@@ -1452,7 +1443,6 @@ Use the process tag on netstat to find the process id then kill the process.
 All the lollipops!
 <img src="images-2020/linux-final.png" width="500" />
 
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="elf-code"></a>
@@ -1624,7 +1614,6 @@ elf.moveUp(2)`
 
 I ran out of time and decided to put the bonus levels on hold. If I end up coming back to them, I'll detail it here!
 
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="dial-up"></a>
@@ -1665,7 +1654,6 @@ Try putting in the phone number then quickly hitting the sequence by clicking on
 
 Success!
 
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="redis"></a>
@@ -1687,7 +1675,6 @@ You'll figure it out, I'm sure!
 
 This is the [link from the hint](https://book.hacktricks.xyz/pentesting/6379-pentesting-redis) with a step by step on RCE in redis.
 
-
 At first I thought I would need to learn about redis, but really it looks like mostly if I use the curl command to get into the redis-cli there won't be a whole lot of redis I'll need to know? We'll see...
 
 Objective: Check the source of the index.php page and look for a bug (basically view the file using cat)
@@ -1706,7 +1693,7 @@ So next I'll try that and see what I can find from the config file by using
 
 There near the top, it's the password in plain text!
 > requirepass
-R3disp@ss
+> R3disp@ss
 
 and at the bottom, it shows the IP address.
 <img src="images-2020/holly-start2.png" width="500" />
@@ -1714,8 +1701,7 @@ and at the bottom, it shows the IP address.
 ``$ redis-cli -h 127.0.0.1 -a R3disp@ss`
 (-h means we're specifying the host IP address; -a means we're authenticating with a password)
 
-Now looking at the hint link…
-https://book.hacktricks.xyz/pentesting/6379-pentesting-redis
+Now looking at the hint link… [Pentesting Redis](https://book.hacktricks.xyz/pentesting/6379-pentesting-redis)
 
 Looks like we need to run the following commands from the redis command line:
 
@@ -1746,8 +1732,6 @@ Woohoo!
 That was hard. I still don't really understand how redis could see the php in the test key through the database file…
 But that php command for system(); is the one that made the difference, it is what gives you the shell when you curl
 
-
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="speaker-door"></a>
@@ -1773,7 +1757,6 @@ OK let's try it
 <img src="images-2020/bushy-door3.png" width="500" />
 
 Tada!
-
 
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
@@ -1842,7 +1825,6 @@ BBBBBBBB = DqTpKv7f
 
 Are there patterns?
 
-
 AAAABBBB = XiGRKv7f
 BBBBAAAA = DqTpehmw
 CCCCCCCC = Lbn3UP9W
@@ -1859,6 +1841,8 @@ CandyCanes = LVEdQPpBw5
 CandyCane1 = LVEdQPpBwr   Oh this is the one, woohoo!
 
 I'll make a table to sort the values for each letter in each position.
+
+-- something is wrong with this table. I'll need to revisit it because it doesn't look like the one I put together... --
 
 |        | 1 | A | a | B | C | d | D | E | H | I | N | O | P | R | s | S | Y | z | Z | 5 |
 |-------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1902,8 +1886,6 @@ _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [n
 
 <img src="images-2020/snowball-hint-mtp.png" width="500" />
 
-
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="toy-sorting"></a>
@@ -1936,7 +1918,6 @@ Getting started, using the cheat sheet and checker:
 <img src="images-2020/minty-cs1.png" width="500" />
 
 <img src="images-2020/minty-1.png" width="500" />
-
 
 The time one is harder…
 
@@ -1977,13 +1958,11 @@ I went down a rabbit hole of trying to get the date to match all possible format
 
 That was interesting! I've seen regular expressions before but never really dove into them. Learned a lot!
 
-
 _Jump to: [top](#top) | [storyline](#storyline) | [objectives](#objectives) | [narrative](#narrative) | [takeaways](#takeaways)_
 
 <a name="scapy-prepper"></a>
 ### Scapy Prepper 
 (Alabaster Snowball)
-
 
 <img src="images-2020/scapy-start.png" width="500" />
 
@@ -1997,8 +1976,7 @@ This could be a helpful resource https://scapy.net/
 And https://github.com/secdev/scapy/
 This is actually pretty cool!
 
-This is the link in the hint:
-https://scapy.readthedocs.io/en/latest/api/scapy.sendrecv.html
+[This is the link in the hint](https://scapy.readthedocs.io/en/latest/api/scapy.sendrecv.html)
 
 <img src="images-2020/scapy-4.png" width="500" />
 
@@ -2118,8 +2096,6 @@ So these are what need fixing
 
 <img src="images-2020/scapy-41.png" width="500" />
 
-
-
 ---
 
 <a name="narrative"></a>
@@ -2182,7 +2158,7 @@ https://gchq.github.io/CyberChef/
 #### HID / Proxmark
 
 I'm fascinated by the idea that through a little device you can manipulate id cards. The Proxmark3 seems like an awesome tool.
-[This HID/ProxCard Cheat Sheet]](https://gist.github.com/joswr1ght/efdb669d2f3feb018a22650ddc01f5f2) could come in handy some day.
+[This HID/ProxCard Cheat Sheet](https://gist.github.com/joswr1ght/efdb669d2f3feb018a22650ddc01f5f2) could come in handy some day.
 
 #### Scapy
 
