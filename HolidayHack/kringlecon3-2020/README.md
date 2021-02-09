@@ -604,7 +604,7 @@ Angel Candysalt -
 > Hey Santa, there's some crazy stuff going on that we can see through our Splunk infrastructure.
 You better login and see what's up.
 
-Clicking on the [Splunk terminal](#splunk)…
+Clicking on the [Splunk terminal](#objective-6)…
 Got it! That was… interesting. Splunk is still a little confusing to me, I'd never actually heard of it before. It looks like an interesting tool.
 
 Talking to Angel Candysalt again - nope, same message as before.
