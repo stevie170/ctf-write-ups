@@ -478,7 +478,7 @@ It gave me portal candies!
 
 <img src="images-2020/portals.png" width="500" />
 
-Skipped the snowball game for now... I'll probably regret that later!
+Skipped the [snowball game](#snowball-game) for now... I'll probably regret that later!
 
 Heading to floor 1 1/2 now that I have that button and the red bulb
 
