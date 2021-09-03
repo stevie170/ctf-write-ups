@@ -14,8 +14,8 @@ A *Capture the Flag* (CTF) competition is an information security competition th
 
 | CTF | Link |
 |:---:|:---:|
-|  2020 SANS Holiday Hack Challenge | [/HolidayHack/kringlecon3-2020](https://github.com/stevie170/ctf-write-ups/tree/main/HolidayHack/kringlecon3-2020) |
-| | |
+| 2020 SANS Holiday Hack Challenge | [/HolidayHack/kringlecon3-2020](https://github.com/stevie170/ctf-write-ups/tree/main/HolidayHack/kringlecon3-2020) |
+| 2021 WiCyS-CI Hack the Airport | [/Hack the Airport/](https://github.com/stevie170/ctf-write-ups/tree/main/Hack the Airport/) |
 
 ### How to Get Started
 
