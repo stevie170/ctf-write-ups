@@ -6,4 +6,4 @@ But alas, my plans changed after I started looking around but before I could rea
 
 ## The best thing about KringleCon, though, is that it's available year-round!
 
-Stay tuned, because I'll be updating this write-up as I work through it!
+I'll update this write-up if I work through it!
